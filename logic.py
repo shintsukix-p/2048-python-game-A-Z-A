@@ -142,6 +142,7 @@ def down_aka_s(board13):
 
 def game_over(board15):
     global scorecopy
+    global score
     scorecopy = score
     flagg = 0
     board16 = copy.deepcopy(board15)
